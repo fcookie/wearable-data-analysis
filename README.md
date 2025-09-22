@@ -2,7 +2,7 @@
 
 A comprehensive machine learning pipeline for analyzing wearable sensor data (accelerometer) to classify physical activities and support digital health & rehabilitation monitoring.
 
-## 🚀 Features
+## Features
 
 - **Comprehensive Data Processing**: Load, clean, and preprocess time-series sensor data
 - **Advanced Feature Engineering**: Extract 100+ time-domain, frequency-domain, and statistical features
@@ -12,7 +12,7 @@ A comprehensive machine learning pipeline for analyzing wearable sensor data (ac
 - **Rich Visualizations**: Static plots and interactive dashboards for results analysis
 - **Production Ready**: Modular design with proper error handling and logging
 
-## 📊 Supported Datasets
+## Supported Datasets
 
 ### 1. UCI HAR Dataset (Built-in Support)
 - **30 volunteers** performing 6 activities
@@ -41,7 +41,7 @@ The pipeline can classify various physical activities including:
 - Climbing stairs
 - Custom activities (easily extensible)
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 wearable-data-analysis/
@@ -71,7 +71,7 @@ wearable-data-analysis/
 └── main.py                   # Main pipeline script
 ```
 
-## 🔧 Installation
+## Installation
 
 ### Quick Setup (Recommended)
 
@@ -96,7 +96,7 @@ pip install -e .
 python main.py --generate-data
 ```
 
-> **💡 Tip**: If you encounter import errors, always use `python run_analysis.py` instead of `python main.py`. See [INSTALL.md](INSTALL.md) for detailed troubleshooting.
+> ** Tip**: If you encounter import errors, always use `python run_analysis.py` instead of `python main.py`. See [INSTALL.md](INSTALL.md) for detailed troubleshooting.
 
 ### Alternative Installation
 
@@ -110,7 +110,7 @@ pip install -r requirements.txt
 python run_analysis.py --help
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Use UCI HAR Dataset (Recommended for Benchmarking)
 
@@ -161,7 +161,7 @@ timestamp,acc_x,acc_y,acc_z,activity,user_id
 ...
 ```
 
-## 🔬 Advanced Usage
+## Advanced Usage
 
 ### Command Line Options
 
@@ -225,7 +225,7 @@ visualizer = ResultVisualizer()
 activity, confidence = model.predict_single(sample_features)
 ```
 
-## 📈 Model Performance
+## Model Performance
 
 The pipeline typically achieves:
 - **90-95% accuracy** on synthetic data
@@ -249,7 +249,7 @@ The pipeline typically achieves:
 3. **Gradient Boosting**: High accuracy, handles complex patterns
 4. **SVM**: Good for high-dimensional data, robust to outliers
 
-## 📊 Output Files
+## Output Files
 
 After running the pipeline, check the `results/` directory for:
 
@@ -262,7 +262,7 @@ After running the pipeline, check the `results/` directory for:
 7. **07_interactive_dashboard.html**: Interactive results dashboard
 8. **Performance report**: Detailed text report with recommendations
 
-## 🧪 Testing
+## Testing
 
 Run the test suite to verify everything works correctly:
 
@@ -277,7 +277,7 @@ python -m pytest tests/ -v
 python -m pytest tests/ -v --cov=src --cov-report=html
 ```
 
-## 🔧 Customization
+## Customization
 
 ### Adding New Activities
 
@@ -314,7 +314,7 @@ self.model_configs['Your Model'] = {
 }
 ```
 
-## 📝 Data Collection Guidelines
+## Data Collection Guidelines
 
 For best results with real sensor data:
 
@@ -325,7 +325,7 @@ For best results with real sensor data:
 5. **User Diversity**: Include multiple users for generalization
 6. **Controlled Environment**: Label activities accurately
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -335,23 +335,23 @@ For best results with real sensor data:
 6. Push to the branch (`git push origin feature/amazing-feature`)
 7. Open a Pull Request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Inspired by research in digital health and rehabilitation monitoring
 - Built with scikit-learn, pandas, and matplotlib
 - Thanks to the open-source community for the amazing tools
 
-## 📚 References
+## References
 
 - [Human Activity Recognition using Wearable Sensors](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6038072/)
 - [Feature Engineering for Activity Recognition](https://link.springer.com/article/10.1007/s00779-013-0681-1)
 - [Digital Health Monitoring Systems](https://www.nature.com/articles/s41746-019-0113-1)
 
-## 🔗 Links
+## Links
 
 - [Documentation](https://github.com/fcookie/wearable-data-analysis/wiki)
 - [Issues](https://github.com/fcookie/wearable-data-analysis/issues)
@@ -359,6 +359,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Happy analyzing! 🚀📊**
+
 
 For questions or support, please open an issue on GitHub or contact the maintainers.
